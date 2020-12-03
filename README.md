@@ -1,4 +1,4 @@
-# PdfCompare  [![Build Status](https://travis-ci.org/alandoni/pdfcompareforandroid.svg?branch=master)](https://travis-ci.org/alandoni/pdfcompareforandroid) [![Maven Central Version](https://img.shields.io/maven-central/v/br.alandoni/pdfcompareforandroid.svg)](http://search.maven.org/#search|gav|1|g:"br.alandoni"%20AND%20a:"pdfcompareforandroid")
+# PdfCompare
 
 A simple Java library to compare two PDF files.
 Files are rendered and compared pixel by pixel.
@@ -12,7 +12,7 @@ Just include it as a dependency. Please check for the most current version avail
   <dependency>
     <groupId>br.alandoni</groupId>
     <artifactId>pdfcompareforandroid</artifactId>
-    <version>...</version> <!-- see current version in the maven central tag above -->
+    <version>1.1</version> <!-- see current version in the maven central tag above -->
   </dependency>
 </dependencies>
 ```
