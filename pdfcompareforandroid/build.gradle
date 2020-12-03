@@ -33,7 +33,9 @@ dependencies {
     implementation 'com.typesafe:config:1.4.0'
     implementation 'org.slf4j:slf4j-api:1.7.30'
 
-
     implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.13.1'
 }
+
+apply from: 'install.gradle'
+apply from: 'bintray.gradle'

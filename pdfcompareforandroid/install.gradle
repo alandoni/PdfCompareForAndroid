@@ -1,0 +1,38 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'br.alandoni' // PACKAGE NAME FROM BINTRAY ACCOUNT
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'br.alandoni' // PACKAGE NAME FROM BINTRAY ACCOUNT
+                artifactId 'pdfcompareforandroid' // THE NAME OF YOUR MODULE
+
+                name 'PdfCompareForAndroid' // YOUR LIBRARY NAME
+                description 'PdfCompareForAndroid is a library to compare PDFs pixel by pixel.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/alandoni/PdfCompareForAndroid' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'alandoni' //YOUR GITHUB ID
+                        name 'Alan Donizete' //YOUR NAME
+                        email 'alan.etm@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/alandoni/PdfCompareForAndroid.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/alandoni/PdfCompareForAndroid.git' // YOUR GIT REPO
+                    url 'https://github.com/alandoni/PdfCompareForAndroid' // YOUR SITE
+                }
+            }
+        }
+    }
+}
