@@ -1,5 +1,7 @@
 # PdfCompare
 
+This Library is a port for Android from https://github.com/red6/pdfcompare
+
 A simple Java library to compare two PDF files.
 Files are rendered and compared pixel by pixel.
 
